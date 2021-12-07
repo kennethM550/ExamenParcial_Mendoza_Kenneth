@@ -5,10 +5,11 @@
  */
 package modelo;
 
-/**
- *
- * @author Kenneth
- */
 public class Tarjeta {
+    private String numero;
+    private String nombre;
+    private String CVV;
+    private String clave;
+    
     
 }
