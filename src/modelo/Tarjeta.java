@@ -5,11 +5,13 @@
  */
 package modelo;
 
+import java.util.Date;
+
 public class Tarjeta {
     private String numero;
     private String nombre;
     private String CVV;
     private String clave;
-    
+    private Date fechaVenc=new Date();
     
 }

@@ -5,6 +5,8 @@
  */
 package controlador;
 
+import java.util.Date;
+
 /**
  *
  * @author Kenneth
@@ -12,4 +14,7 @@ package controlador;
 public class Cuenta {
     private String numero;
     private float saldo;
+    private Date fechaApertura=new Date();
+    
+    
 }
