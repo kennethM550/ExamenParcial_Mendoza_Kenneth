@@ -5,20 +5,10 @@
  */
 package controlador;
 
-import java.util.Date;
-
 /**
  *
  * @author Kenneth
  */
-public class Cuenta {
-
-    private String numero;
-    private float saldo;
-    private Date fechaApertura=new Date();
-    
-    public static void main(String[] args) {
-        
-    }
+public class Cajero {
     
 }

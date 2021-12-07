@@ -13,7 +13,14 @@ public class TipoOperación {
     private String nombre;
     private int codigo;
     
-    public String getTipo(int codigo){
+    public int getTipo(int codigo){
+        this.codigo=codigo;
+        System.out.println("Indique tipo de operación:");
+        System.err.println("1 Transferir");
+        System.err.println("2 Depositar");
+        System.out.println("3 retirar");
+        System.out.println("4 consultar");
         
+        return codigo;
     }
 }
